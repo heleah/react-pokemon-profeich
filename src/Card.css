@@ -1,0 +1,31 @@
+.card {
+  background: salmon;
+  color: ivory;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+
+  display: grid;
+  place-items: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.card h2,
+.card p {
+  text-shadow: 0 -0.5px 2px lightslategray;
+}
+
+.card button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: transform ease-out 0.2s;
+}
+
+.card button:hover {
+  transform: rotate(-25deg);
+  transition: transform ease-in 0.3s;
+}
